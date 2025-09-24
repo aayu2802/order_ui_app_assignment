@@ -42,4 +42,6 @@ Header and buttons stack vertically on smaller screens
 
 ## Screenshots
 
+![img alt](https://github.com/aayu2802/order_ui_app_assignment/blob/39961343b196dca920505716bdbc3233ba408702/Screenshot%202025-09-24%20182539.png)
+
 

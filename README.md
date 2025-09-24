@@ -2,9 +2,19 @@
 
 A new Flutter project.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+Responsive Design: Layout adapts seamlessly to different screen sizes.
+
+Header with Actions: Displays the screen title and a download button.
+
+Filter Bar: Supports filtering of orders based on various parameters.
+
+Orders Table: Displays orders in a structured table format.
+
+Pagination: Navigate through multiple pages of orders using square buttons.
+
+Horizontal Scroll Support: The table can scroll horizontally on smaller screens.
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -14,3 +24,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+

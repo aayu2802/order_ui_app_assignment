@@ -16,12 +16,26 @@ Pagination: Navigate through multiple pages of orders using square buttons.
 
 Horizontal Scroll Support: The table can scroll horizontally on smaller screens.
 
-A few resources to get you started if this is your first Flutter project:
+##Project Structure
+lib/
+├── main.dart                 
+├── models/
+│   └── order_model.dart     
+├── screens/
+│   └── orders_screen.dart    
+├── widgets/
+│   ├── filter_bar.dart       
+│   ├── market_nav_bar.dart   
+│   └── order_table.dart   
+│   └── page_bar.dart
+│   └── order_card.dart   
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##Approach
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###Separation of Concerns
+Each component is broken into its own widget  like FilterBar, MarketNavBar, OrderTable, PageBar and OrderCard ,which makes these widgets reuseable and responsive for other screens
+###Responsive Layout
 
+Used LayoutBuilder() to adapt layout based on other screens width
+buttons are wrapped in a Wrap widget to automatically move to the next line if space is limited.
+Header and buttons stack vertically on smaller screens

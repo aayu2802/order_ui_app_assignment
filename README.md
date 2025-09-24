@@ -16,7 +16,7 @@ Pagination: Navigate through multiple pages of orders using square buttons.
 
 Horizontal Scroll Support: The table can scroll horizontally on smaller screens.
 
-##Project Structure
+## Project Structure
 lib/
 ├── main.dart                 
 ├── models/
@@ -30,12 +30,16 @@ lib/
 │   └── page_bar.dart
 │   └── order_card.dart   
 
-##Approach
+## Approach
 
-###Separation of Concerns
+### Separation of Concerns
 Each component is broken into its own widget  like FilterBar, MarketNavBar, OrderTable, PageBar and OrderCard ,which makes these widgets reuseable and responsive for other screens
-###Responsive Layout
+### Responsive Layout
 
 Used LayoutBuilder() to adapt layout based on other screens width
 buttons are wrapped in a Wrap widget to automatically move to the next line if space is limited.
 Header and buttons stack vertically on smaller screens
+
+## Screenshots
+
+
